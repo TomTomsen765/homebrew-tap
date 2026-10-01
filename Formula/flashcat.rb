@@ -1,8 +1,8 @@
 class Flashcat < Formula
   desc "Local AI assistant for the macOS terminal (LM Studio or Ollama)"
   homepage "https://tomtomsen765.github.io/flashcat/"
-  url "https://github.com/TomTomsen765/flashcat/archive/refs/tags/v1.3.7.tar.gz"
-  sha256 "07c3dbe669904d8e3b1ef282c3a20250b8d9ffda6c6ff01e327b0852a947c8b6"
+  url "https://github.com/TomTomsen765/flashcat/archive/refs/tags/v1.3.8.tar.gz"
+  sha256 "188174004105e931975df34d04bb95b966440a370aa847c0d71dd6c8de3d025d"
   license "MIT"
 
   depends_on :macos
