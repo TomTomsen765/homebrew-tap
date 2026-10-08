@@ -1,8 +1,8 @@
 class Flashcat < Formula
-  desc "Local AI assistant for the macOS terminal (LM Studio or Ollama)"
+  desc "Local AI assistant for the macOS terminal (LM Studio, Ollama or llama.cpp)"
   homepage "https://tomtomsen765.github.io/flashcat/"
-  url "https://github.com/TomTomsen765/flashcat/archive/refs/tags/v1.4.3.tar.gz"
-  sha256 "94acbe5ce1134b2bbdd7e3f38a3a80a9542bbdb07888775e5cabc2afea60c702"
+  url "https://github.com/TomTomsen765/flashcat/archive/refs/tags/v1.5.0.tar.gz"
+  sha256 "03b9fcbc4d9f0723fc3173ebf1ea36c5023f4a45657e272de626da5b4ae5115b"
   license "MIT"
 
   depends_on :macos
@@ -14,7 +14,7 @@ class Flashcat < Formula
 
   def caveats
     <<~EOS
-      Flashcat needs a local model server: LM Studio (https://lmstudio.ai/download) or Ollama.
+      Flashcat needs a local model server: LM Studio (https://lmstudio.ai/download), Ollama or llama.cpp.
       Open it once, then start Flashcat in a project folder:
         cd ~/Documents/my-project && flashcat
       The first start offers to download the default model, Gemma 4 26B (about 16 GB).
